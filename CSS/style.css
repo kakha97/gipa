@@ -2,8 +2,6 @@
     --sidebarColor: #953849;
 }
 
-@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:400');
-
 
 * {
     padding: 0;
@@ -12,7 +10,7 @@
 }
 
 body {
-    font-family: 'FiraGO', sans-serif;
+    font-family: 'FiraGO';
 }
 
 .sidebar {
@@ -53,7 +51,6 @@ body {
     margin-left: 6.4%;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
-    letter-spacing: 1px;
 }
 
 .line {
@@ -74,6 +71,7 @@ body {
 
 .menu_list p {
     display: inline-block;
+    font-weight: 600;
     width: 28px;
     height: 18px;
     background: rgba(255, 255, 255, 1);
