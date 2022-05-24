@@ -2,10 +2,17 @@
     --sidebarColor: #953849;
 }
 
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:400');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'FiraGO', sans-serif;
 }
 
 .sidebar {
@@ -50,15 +57,15 @@
 }
 
 .line {
-    position: absolute;
     margin-left: 6.4%;
     width: 40px;
     margin-top: 20px;
-    border: 1.4px solid #D6D6D6;
+    height: 1.4px;
+    background: rgba(255, 255, 255, 0.4);
 }
 
 .second_item {
-    margin-top: 41px;
+    margin-top: 21px;
 }
 
 .angle-down {
@@ -85,10 +92,11 @@
 }
 
 .line2 {
-    margin-left: 8.6%;
-    width: 192px;
+    height: 1.4px;
+    background: rgba(214, 214, 214, 1);
+    width: 80%;
+    margin-left: 8%;
     margin-top: 20px;
-    border: 1.4px solid #D6D6D6;
 }
 
 .text_gipa { 
@@ -99,6 +107,9 @@
     margin-top: 13px;
     margin-bottom: 25px;
     margin-left: 51px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.5px;
 }
 
 
