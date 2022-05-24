@@ -1,0 +1,122 @@
+:root {
+    --sidebarColor: #953849;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 16%;
+    background-color: var(--sidebarColor);
+    position: absolute;
+    height: auto;
+}
+
+.logo {
+    width: 104px;
+    height: 77px;
+    margin-left: 28%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.menu_li {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    position: relative;
+}
+
+.menu_li:hover {
+    background: linear-gradient(89.9deg, rgb(255 238 241 / 20%) 20.77%, rgba(255, 255, 255, 0) 91.6%);
+}
+
+.menu {
+    margin-top: 46px;
+}
+
+.icon {
+    margin-left: 6.4%;
+}
+
+.menu_list {
+    margin-left: 6.4%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 1px;
+}
+
+.line {
+    position: absolute;
+    margin-left: 6.4%;
+    width: 40px;
+    margin-top: 20px;
+    border: 1.4px solid #D6D6D6;
+}
+
+.second_item {
+    margin-top: 41px;
+}
+
+.angle-down {
+    margin-left: 9px;
+}
+
+.menu_list p {
+    display: inline-block;
+    width: 28px;
+    height: 18px;
+    background: rgba(255, 255, 255, 1);
+    color: #953849;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 31px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 430px;
+}
+
+.line2 {
+    margin-left: 8.6%;
+    width: 192px;
+    margin-top: 20px;
+    border: 1.4px solid #D6D6D6;
+}
+
+.text_gipa { 
+    width: 130px;
+    height: 34px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 13px;
+    margin-bottom: 25px;
+    margin-left: 51px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    width: 84%;
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    margin-left: 16%;
+}
+
+    
